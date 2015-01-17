@@ -1,0 +1,27 @@
+{
+    "name": "bioukh-danf-test",
+    "description": "My Danf application",
+    "version": "0.0.0",
+    "author": "Me <me@myhome.me>",
+    "contributors": [],
+    "dependencies": {
+        "danf": "0.1.7",
+        "amdefine": "0.1.*"
+    },
+    "devDependencies": {
+        "mocha": "2.0.*",
+        "supertest": "0.15.*"
+    },
+    "keywords": [
+        "bioukh-danf-test",
+        "danf"
+    ],
+    "repository": "git://github.com/me/bioukh-danf-test",
+    "main": "app",
+    "scripts": {
+        "test": "make test"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
